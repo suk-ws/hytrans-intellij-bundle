@@ -17,17 +17,17 @@
 	<extensions defaultExtensionNs="com.intellij">
 		
 		<fileType name="HyTrans Translation File"
-			implementationClass="cc.sukazyo.hytrans_intellij.language.HytTranslationsFileType$"
+			implementationClass="cc.sukazyo.hytrans_intellij.language.HytTranslationsFileType"
 			fieldName="INSTANCE"
-			language="hytrans"
+			language="HyTrans"
 			extensions="hytrans" />
 		<fileType name="HyTrans Translation File"
 			extensions="hyt" />
 		
 		<fileType name="HyTrans Language Tree"
-			implementationClass="cc.sukazyo.hytrans_intellij.language.HytLanguageTreeFileType$"
+			implementationClass="cc.sukazyo.hytrans_intellij.language.HytLanguageTreeFileType"
 			fieldName="INSTANCE"
-			language="hylangs"
+			language="HyLangs"
 			extensions="hylangs" />
 		<fileType name="HyTrans Language Tree"
 			extensions="hyl" />
