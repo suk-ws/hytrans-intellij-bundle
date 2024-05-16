@@ -8,7 +8,7 @@ object Resources extends Resources
 
 trait Resources {
 	
-	val ICON_HYTRANS_FILE: Icon = IconLoader.getIcon("/icons/hytrans-file-icon.png", this.getClass)
-	val ICON_HYLANGS_FILE: Icon = IconLoader.getIcon("/icons/hylangs-file-icon.png", this.getClass)
+	val ICON_HYTRANS_FILE: Icon = IconLoader.getIcon("/icons/hytrans-file-icon.svg", this.getClass)
+	val ICON_HYLANGS_FILE: Icon = IconLoader.getIcon("/icons/hylangs-file-icon.svg", this.getClass)
 	
 }
